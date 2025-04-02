@@ -63,4 +63,9 @@ public class Diretor {
         filmes.remove(filme);
         filme.setDiretor(null);
     }
+
+    @Override
+    public String toString() {
+        return "Diretor [id=" + id + ", nome=" + nome + "]";
+    }
 }
